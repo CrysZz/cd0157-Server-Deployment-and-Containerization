@@ -17,8 +17,8 @@ Resources:
           Ref: myVPC
         SecurityGroupIngress:
         - IpProtocol: tcp
-          FromPort: 81
-          ToPort: 81
+          FromPort: 80
+          ToPort: 80
           CidrIp: 0.0.0.0/0
         SecurityGroupEgress:
         - IpProtocol: -1
